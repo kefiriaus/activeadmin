@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 source "https://rubygems.org"
 
-gem 'inherited_resources', github: 'kefiriaus/inherited_resources', branch: 'master'
-
 group :development, :test do
   gem "rake"
   gem "pry" # Easily debug from your console with `binding.pry`
